@@ -1,0 +1,147 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font: 10pt Verdana;
+    color : #444;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/*MAIN*/
+
+#footer {
+  width: 80%;
+  float: left;
+  height: 30px;
+  background : whitesmoke;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-color : #DDD;
+  position: fixed;
+  bottom: 0;
+}
+
+.chat {
+  width : 250px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+.chat-header {
+  height: 20px;
+  background : #0066cc;
+  border: 1px solid #003399;
+  border-radius : 2px 2px 0 0;
+  cursor: pointer;
+}
+
+.box {
+  height : 300px;
+  background: whitesmoke;
+  border: 1px solid #CCC;
+  border-top: none;
+}
+
+/*TICKER*/
+
+#connectedUsers {
+  width : 200px;
+  height: 100%;
+  position: fixed;
+  top : 0;
+  bottom : 0;
+  right : 0;
+  background : whitesmoke;
+  border-left: 1px solid #CCC;
+}
+
+.connectedItem {
+  width : inherit;
+  height : 20px;
+  padding: 4px;
+  border-bottom: 1px solid #CCC;
+  cursor: pointer;
+}
